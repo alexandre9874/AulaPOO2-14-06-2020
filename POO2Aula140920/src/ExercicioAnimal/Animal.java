@@ -1,9 +1,9 @@
 package ExercicioAnimal;
 
 public class Animal {
-	protected String comer;
-	protected String dormir;
-	protected String fazerbarulho;
+	public String comer;
+	public String dormir;
+	public String fazerbarulho;
 	
 	public Animal(String comer, String dormir, String fazerbarulho) {
         this.comer = comer;

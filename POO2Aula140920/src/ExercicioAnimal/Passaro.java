@@ -1,8 +1,8 @@
 package ExercicioAnimal;
 
 public class Passaro extends Animal{
-	private String voar;
-	private String botaovo;
+	public String voar;
+	public String botaovo;
 	
 	public Passaro(String comer, String dormir, String fazerbarulho) {
 		super(comer,dormir,fazerbarulho);

@@ -1,7 +1,7 @@
 package ExercicioAnimal;
 
 public class Cavalo extends Animal {
-	private String mama;
+	public String mama;
 	
 	public Cavalo(String comer, String dormir, String fazerbarulho) {
 		super(comer,dormir,fazerbarulho);
